@@ -10,7 +10,6 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-        System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=Testing=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Current Date :"+ LocalDateTime.now());
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=Testing=-=-=-=-=-=-=-=-=-=-=-");
     }
