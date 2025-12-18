@@ -11,6 +11,7 @@ services:
     ports:
       - "5432:5432"
   java-spring-app:
+    image: spring-app:latest
     build: .
     container_name: java-spring-app
     depends_on:
